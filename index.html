@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/assets/css/style.css">
+    <title>Desafio 2 condiciones</title>
+</head>
+
+<body>
+
+    
+    <div class="container">
+        <section class="container_parte1" id="parte1">
+            <p class="parte_nombre">Parte 1</p>
+
+            <div class="container_imagen">
+                <img src="assets/image/9bed608c3049e81d3f668816e926bf3b.jpg" alt="" id="dog_img">
+                <h2>Click en la imagen</h2>
+            </div>
+        </section>
+
+        <section class="container_parte2" id="parte2">
+            <p class="parte_nombre">Parte 2</p>
+
+            <div class="container_center">
+                <h2>Puedes llevar hasta 10 stickers en total</h2>
+
+                <div class="card_container">
+                    <div class="mini_card">
+                        <img src="assets/image/rickandmorty2_L2.png" alt="Rick and Morty" class="sticker_img">
+                        <input type="number" id="input01" min="0" max="10" required>
+                    </div>
+    
+                    <div class="mini_card">
+                        <img src="assets/image/spongebob_L2.png" alt="Bob Esponja" class="sticker_img">
+                        <input type="number" id="input02" min="0" max="10" required>
+                    </div>
+    
+                    <div class="mini_card">
+                        <img src="assets/image/bartsimpson_L2.png" alt="Bart Simpson" class="sticker_img">
+                        <input type="number" id="input03" min="0" max="10" required>
+                    </div>    
+                </div>
+
+                <h4 id="stMensaje">Click en el botón</h4>
+
+                <button class="botonsticker" id="boton_sticker">Me los llevo</button>
+            </div>
+
+        </section>
+
+        <section class="container_parte3" id="parte3">
+            <p class="parte_nombre">Parte 3</p>
+
+            <div class="container_center">
+                <h1>Ingresa el password</h1>
+
+                <div class="password_container">
+                    <select name="digito01" id="digito01">
+                        <option value="1">1</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                        <option value="4">4</option>
+                        <option value="5">5</option>
+                        <option value="6">6</option>
+                        <option value="7">7</option>
+                        <option value="8">8</option>
+                        <option value="9">9</option>
+                    </select>
+
+                    <select name="digito02" id="digito02">
+                        <option value="1">1</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                        <option value="4">4</option>
+                        <option value="5">5</option>
+                        <option value="6">6</option>
+                        <option value="7">7</option>
+                        <option value="8">8</option>
+                        <option value="9">9</option>
+                    </select>
+
+                    <select name="digito03" id="digito03">
+                        <option value="1">1</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                        <option value="4">4</option>
+                        <option value="5">5</option>
+                        <option value="6">6</option>
+                        <option value="7">7</option>
+                        <option value="8">8</option>
+                        <option value="9">9</option>
+                    </select>
+                </div>
+
+                <button id="boton_password">Ingresar</button>
+
+                <p id="Res_Password"></p>
+            </div>
+        </section>
+    </div>
+
+
+
+    <script src="assets/js/script.js"></script>
+
+</body>
+
+</html>
